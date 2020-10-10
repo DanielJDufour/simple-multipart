@@ -22,7 +22,7 @@ const detectBoundary = ({ body, debug = false }) => {
 
 module.exports = ({ body, debug = false }) => {
   if (debug) {
-    console.log("starting multifarious with body");
+    console.log("starting simple-multipart with body");
     console.log(body);
     console.log([body]);
   }
@@ -58,7 +58,7 @@ module.exports = ({ body, debug = false }) => {
   }
 
   if (debug) console.log("files:", files);
-  if (debug) console.log("finishing multifarious");
+  if (debug) console.log("finishing simple-multipart");
 
   return files;
 };
