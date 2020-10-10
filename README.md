@@ -7,7 +7,7 @@ Simplest Parser of Multi-Part Form Data.
 - Works great on AWS Lambda
 
 # usage
-```
+```javascript
 const parse = require("simple-multipart/parse");
 
 const parts = parse(body);
