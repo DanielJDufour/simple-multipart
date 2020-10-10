@@ -1,4 +1,4 @@
-# multifarious
+# simple-multipart
 Simplest Parser of Multi-Part Form Data.
 
 # features
