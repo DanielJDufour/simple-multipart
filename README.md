@@ -36,10 +36,10 @@ Content-Disposition: form-data; name="biography"; filename="biography.txt"
 George Washington was an American political leader, military general, statesman, and founding father who served as the first president of the United States from 1789 to 1797. Previously, he led Patriot forces to victory in the nation's War for Independence. (Wikipedia)
 --formBoundary--`;
 
-const files = parse(body);
+const parts = parse(body);
 
 ```
-files are
+parts are
 ```json
 [
     {
