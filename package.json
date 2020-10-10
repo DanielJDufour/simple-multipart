@@ -1,0 +1,40 @@
+{
+  "name": "simple-multipart",
+  "version": "0.0.0",
+  "description": "Simplest Parser of Multi-Part Form Data. Works great on AWS Lambda.",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "index.js",
+    "parse.js",
+    "test.js",
+    "test_data/test.txt"
+  ],
+  "scripts": {
+    "format": "npx prettier --write *.js",
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/simple-multipart.git"
+  },
+  "keywords": [
+    "aws",
+    "data",
+    "form",
+    "form-data",
+    "lambda",
+    "multipart",
+    "parser"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/simple-multipart/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/simple-multipart#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.13.0"
+  }
+}
