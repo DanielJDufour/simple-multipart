@@ -10,7 +10,7 @@ Simplest Parser of Multi-Part Form Data.
 ```javascript
 const parse = require("simple-multipart/parse");
 
-const parts = parse(body);
+const parts = parse({ body });
 ```
 
 # usage in AWS Lambda Functions
@@ -18,7 +18,7 @@ const parts = parse(body);
 const parse = require("simple-multipart/parse");
 
 exports.handler = async function(event, context) {
-    const parts = parse(event.body);
+    const parts = parse({ body: event.body });
 };
 ```
 
@@ -36,7 +36,7 @@ Content-Disposition: form-data; name="biography"; filename="biography.txt"
 George Washington was an American political leader, military general, statesman, and founding father who served as the first president of the United States from 1789 to 1797. Previously, he led Patriot forces to victory in the nation's War for Independence. (Wikipedia)
 --formBoundary--`;
 
-const parts = parse(body);
+const parts = parse({ body });
 
 ```
 parts are

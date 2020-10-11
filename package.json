@@ -1,6 +1,6 @@
 {
   "name": "simple-multipart",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simplest Parser of Multi-Part Form Data. Works great on AWS Lambda.",
   "main": "index.js",
   "files": [
